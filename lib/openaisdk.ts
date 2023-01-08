@@ -2,13 +2,13 @@ import { Configuration, ConfigurationParameters, OpenAIApi } from "openai";
 import * as dotenv from "dotenv";
 dotenv.config();
 
-const apiKey = process.env.OPENAI_KEY;
+const apiKey = process.env.OPENAI_KEY as string;
 
 class OpenAiSDK {
   private parameter: ConfigurationParameters;
   private configuration: Configuration;
 
-  constructor(apiKey) {
+  constructor(apiKey: string) {
     this.parameter = {
       apiKey,
     };
