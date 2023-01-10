@@ -10,6 +10,7 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
+        "@logtail/node": "^0.1.14",
         "@logtail/winston": "^0.1.14",
         "@types/cors": "^2.8.13",
         "cors": "^2.8.5",
