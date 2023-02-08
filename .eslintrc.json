@@ -1,17 +1,25 @@
 {
-    "extends": [
-      "eslint:recommended",
-      "plugin:@typescript-eslint/recommended",
-      "airbnb",
-      "plugin:prettier/recommended",
-    "prettier/@typescript-eslint"
-    ],
-    "parser": "@typescript-eslint/parser",
-    "plugins": ["@typescript-eslint"],
-    "rules": {
-        "prettier/prettier": "error",
-      "@typescript-eslint/indent": ["error", 2],
-      "@typescript-eslint/no-unused-vars": "error",
-      "@typescript-eslint/no-explicit-any": "error"
-    }
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "extends": "airbnb-base",
+  "plugins": [
+    //plugins
+    "plugin: @typescript-eslint / eslint-plugin",
+    "plugin: @typescript-eslint / recommended"
+  ],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+    "ecmaVersion": 2022,
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-console": "off",
+    "no-empty": "off",
+    "no-irregular-whitespace": "off"
   }
+}
