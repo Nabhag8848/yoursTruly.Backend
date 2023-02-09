@@ -1,6 +1,6 @@
 import express from "express";
 import { openai } from "../lib/openaisdk";
-import { Request, Response, NextFunction } from "express";
+import { Request, Response } from "express";
 
 const router = express.Router();
 
@@ -8,6 +8,7 @@ router.post("/translation", async (req: Request, res: Response) => {
   try {
     const { prompt } = req.body;
 
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const response: any = await openai.createCompletion({
       model: "code-davinci-002",
       prompt,
@@ -17,7 +18,7 @@ router.post("/translation", async (req: Request, res: Response) => {
       frequency_penalty: 0.0,
       presence_penalty: 0.0,
     });
-    
+
     res.status(200).send(response.data);
   } catch (err) {
     res.status(500).send(err);
