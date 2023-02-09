@@ -1,11 +1,23 @@
 {
-    "extends": ["@commitlint/config-conventional"],
-    "rules": {
-        "scope-enum": [2, "always", [
-            "dx"
-        ]],
-        "type-enum": [2, "always", [
-            "build", "chore", "ci", "docs", "feat", "fix", "perf", "refactor", "revert", "style", "test"
-        ]]
-    }
+  "extends": ["@commitlint/config-conventional"],
+  "rules": {
+    "scope-enum": [2, "always", ["dx"]],
+    "type-enum": [
+      2,
+      "always",
+      [
+        "build",
+        "chore",
+        "ci",
+        "docs",
+        "feat",
+        "fix",
+        "perf",
+        "refactor",
+        "revert",
+        "style",
+        "test"
+      ]
+    ]
+  }
 }
