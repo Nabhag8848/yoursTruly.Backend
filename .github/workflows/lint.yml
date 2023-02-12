@@ -9,6 +9,7 @@ on:
 jobs:
   Lint:
     name: ESlint
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -26,6 +27,7 @@ jobs:
 
   Format:
     name: Prettier
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
