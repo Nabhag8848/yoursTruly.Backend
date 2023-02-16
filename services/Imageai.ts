@@ -8,8 +8,7 @@ const router = express.Router();
 router.post("/image", async (req: Request, res: Response) => {
   try {
     const { prompt, n, size } = req.body;
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    logger.info({ prompt, n, size });
+    logger.info("POST: /generate/image", { endpoint: "/generate/image", prompt, n, size });
     const response = await openai.createImage({
       prompt,
       n,
