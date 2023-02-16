@@ -1,28 +1,24 @@
 import express from "express";
 import { openai } from "../lib/openaisdk";
 import { Request, Response } from "express";
+import { logger } from "./logger";
 
 const router = express.Router();
 
-router.post("/translation", async (req: Request, res: Response) => {
+router.post("/image", async (req: Request, res: Response) => {
   try {
-    const { prompt } = req.body;
-
+    const { prompt, n, size } = req.body;
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const response = await openai.createCompletion({
-      model: "code-davinci-002",
+    logger.info({ prompt, n, size });
+    const response = await openai.createImage({
       prompt,
-      temperature: 0,
-      max_tokens: 64,
-      top_p: 1.0,
-      frequency_penalty: 0.0,
-      presence_penalty: 0.0,
+      n,
+      size,
     });
-
     res.status(200).send(response.data);
   } catch (err) {
     res.status(500).send(err);
   }
 });
 
-export { router as code };
+export { router as image };
