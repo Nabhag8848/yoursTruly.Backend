@@ -1,4 +1,3 @@
-import { ImagesResponse } from "openai";
 import * as dotenv from "dotenv";
 dotenv.config();
 import { logger } from "../services/logger";
@@ -35,7 +34,7 @@ class CloudinaryStorage {
     return response;
   }
   public async storeGeneratedUrls(responseUrls: Array<imageUrl>) {
-    let imageUrls: Array<imageUrl> = [];
+    const imageUrls: Array<imageUrl> = [];
 
     logger.debug("Storing Urls");
 
@@ -64,3 +63,5 @@ async function helper() {
     response,
   });
 }
+
+helper();
