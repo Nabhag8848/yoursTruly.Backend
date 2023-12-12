@@ -1,6 +1,6 @@
 <!-- Project ReadME template -->
 
-# Apps.AI (Rocket.Chat Integration)
+# YoursTruly (Rocket.Chat Integration)
 
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 
@@ -27,22 +27,22 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/Nabhag8848/Apps.AI">
+  <a href="https://github.com/Nabhag8848/YoursTruly">
   </a>
 
-  <h3 align="center">Unofficial Apps.AI (Rocket.Chat Integration) Backend</h3>
+  <h3 align="center">Unofficial Rocket.Chat Integration Backend</h3>
 
   <p align="center">
     Awesome Communication with your team using AI
     <br />
-    <a href="https://github.com/Nabhag8848/Apps.AI"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Nabhag8848/YoursTruly"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Nabhag8848/Apps.AI">View Demo</a>
+    <a href="https://github.com/Nabhag8848/YoursTruly">View Demo</a>
     ·
-    <a href="https://github.com/Nabhag8848/Apps.AI/issues">Report Bug</a>
+    <a href="https://github.com/Nabhag8848/YoursTruly/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Nabhag8848/Apps.AI/issues">Request Feature</a>
+    <a href="https://github.com/Nabhag8848/YoursTruly/issues">Request Feature</a>
   </p>
 </div>
 
