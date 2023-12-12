@@ -2,6 +2,9 @@
 
 # YoursTruly (Rocket.Chat Integration)
 
+#### Related Repository 
+
+ - https://github.com/Nabhag8848/YoursTruly
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 
 <a name="readme-top"></a>
