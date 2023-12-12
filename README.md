@@ -57,173 +57,43 @@
 
 </div>
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
-
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+- YoursTruly is a communication-focused integration aiming to boost productivity within teams. With Image Generation, Code Generation and Translation, SQL Queries Generation, and Grammar Correction, it offers a multifaceted approach to enhance collaborative workflows. This integration empowers teams with tools for visual communication, efficient coding, fostering a productive platform environment.
+  
+![Glimpses](https://user-images.githubusercontent.com/65061890/218055526-b4a344c3-0c56-4d15-b10c-24f68de3d591.gif)
+![image](https://github.com/Nabhag8848/apps.ai.backend/assets/65061890/e45327ec-8c91-4cbf-92e2-6f0446e75b89)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+## Commands
 
-Here's why:
+### `/Yourstruly`
+- Helper command
+  
+![image](https://github.com/Nabhag8848/apps.ai.backend/assets/65061890/18851989-c97b-4867-b955-0af776e5a48c)
 
-- Your time should be focused on creating something amazing. A project that solves a problem and helps others
-- You shouldn't be doing the same tasks over and over like creating a README from scratch
-- You should implement DRY principles to the rest of your life :smile:
+### `/generate <prompt> search`
+- Generate Images with prompt and share directly within channels, no hassle for google search.
+![image](https://github.com/Nabhag8848/apps.ai.backend/assets/65061890/b18f14e6-bdc0-4044-b3aa-9f8a6b756d9e)
+![image](https://github.com/Nabhag8848/apps.ai.backend/assets/65061890/3d751c4e-78bc-46e4-ac52-7b82106d4b38)
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+### `/yourstruly code`
+- Generate, Translate or Get Explanation of Code. 
 
-Use the `BLANK_README.md` to get started.
+![image](https://github.com/Nabhag8848/apps.ai.backend/assets/65061890/fb2e6098-841e-4166-b861-89b2788f0e5a)
+![image](https://github.com/Nabhag8848/apps.ai.backend/assets/65061890/2f54bb8e-e521-4683-bb34-8f53ba9a98de)
+![image](https://github.com/Nabhag8848/apps.ai.backend/assets/65061890/5289f4c9-5d88-474e-ab7d-8ec818d4d7a4)
+<img width="844" alt="image" src="https://github.com/Nabhag8848/apps.ai.backend/assets/65061890/e72bff52-047d-4682-bdf7-71605e1483e5">
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### Generated Image Stored on Cloudinary
+![image](https://github.com/Nabhag8848/apps.ai.backend/assets/65061890/b31ac871-0966-41f4-9262-09c11e999c55)
 
-### Built With
+### Log Management Tool
+![image](https://github.com/Nabhag8848/apps.ai.backend/assets/65061890/66d25ee1-25ba-49da-9b2e-b1bdb4afcc01)
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-- [![Next][next.js]][next-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
-
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = "ENTER YOUR API";
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- USAGE EXAMPLES -->
-
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ROADMAP -->
-
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-  - [ ] Chinese
-  - [ ] Spanish
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
-
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
-
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTACT -->
-
-## Contact
-
-Nabhag Motivaras - [@NabhagMotivaras](https://twitter.com/NabhagMotivaras) - nabhagmotivaras76@gmail.com
-
-Project Link: [https://github.com/Nabhag8848/Apps.AI](https://github.com/Nabhag8848/Apps.AI)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGMENTS -->
-
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-- [Choose an Open Source License](https://choosealicense.com)
-- [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-- [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-- [Malven's Grid Cheatsheet](https://grid.malven.co/)
-- [Img Shields](https://shields.io)
-- [GitHub Pages](https://pages.github.com)
-- [Font Awesome](https://fontawesome.com)
-- [React Icons](https://react-icons.github.io/react-icons/search)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### Elastic beanStalk
+![image](https://github.com/Nabhag8848/apps.ai.backend/assets/65061890/de022c67-42da-475c-916e-2ee3edfb5ebb)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
