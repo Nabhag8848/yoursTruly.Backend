@@ -28,7 +28,6 @@
 <br />
 <div align="center">
   <a href="https://github.com/Nabhag8848/Apps.AI">
-    <img src="https://openai.com/content/images/2022/05/openai-avatar.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Unofficial Apps.AI (Rocket.Chat Integration) Backend</h3>
